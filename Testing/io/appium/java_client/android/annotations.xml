@@ -1,0 +1,5 @@
+<root>
+    <item name='io.appium.java_client.android.AndroidDriver'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

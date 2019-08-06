@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing" verbose="1" parallel="tests" thread-count="4">
+
+    <test name="A201">
+    <parameter name="platform" value="Android 9"/>
+    <parameter name="udid" value="fa2c3c9d"/>
+    <parameter name="systemPort" value="8201"/>
+    <classes>
+        <class name="calculator"></class>
+    </classes>
+    </test>
+
+    <test name="A20">
+        <parameter name="platform" value="Android 8.1.0"/>
+        <parameter name="udid" value="8210d4b6"/>
+        <parameter name="systemPort" value="8202"/>
+        <classes>
+            <class name="calculator"></class>
+        </classes>
+    </test>
+
+<!--    <test name="elite">-->
+<!--        <parameter name="platform" value="Android 8.0.0"/>-->
+<!--        <parameter name="udid" value="RBDBB18906501214"/>-->
+<!--        <parameter name="systemPort" value="8211"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="A30">-->
+<!--        <parameter name="platform" value="Android 9"/>-->
+<!--        <parameter name="udid" value="R58M356N86D"/>-->
+<!--        <parameter name="systemPort" value="8201"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="A201">-->
+<!--        <parameter name="platform" value="Android 9"/>-->
+<!--        <parameter name="udid" value="R58M35NT0WY"/>-->
+<!--        <parameter name="systemPort" value="8202"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="A20">-->
+<!--        <parameter name="platform" value="Android 9"/>-->
+<!--        <parameter name="udid" value="R58M361KS2P"/>-->
+<!--        <parameter name="systemPort" value="8203"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="HUAWEI nova 2 lite">-->
+<!--        <parameter name="platform" value="Android 8.0.0"/>-->
+<!--        <parameter name="udid" value="RBDBB18906501214"/>-->
+<!--        <parameter name="systemPort" value="8204"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="OPPO A57">-->
+<!--        <parameter name="platform" value="Android 6.0.1"/>-->
+<!--        <parameter name="udid" value="4699532"/>-->
+<!--        <parameter name="systemPort" value="8205"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Redmi 6pro">-->
+<!--        <parameter name="platform" value="Android 9"/>-->
+<!--        <parameter name="udid" value="73a512510405"/>-->
+<!--        <parameter name="systemPort" value="8206"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Mi5x">-->
+<!--        <parameter name="platform" value="Android 8.1.0"/>-->
+<!--        <parameter name="udid" value="00076ab20104"/>-->
+<!--        <parameter name="systemPort" value="8207"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Y9">-->
+<!--        <parameter name="platform" value="Android 8.0.0"/>-->
+<!--        <parameter name="udid" value="HXT7N18717002024"/>-->
+<!--        <parameter name="systemPort" value="8208"/>-->
+<!--        <classes>-->
+<!--            <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
+
+
+<!--<test name="A30">-->
+<!--<parameter name="platform" value="Android 9"/>-->
+<!--<parameter name="udid" value="R58M356N86D"/>-->
+<!--<parameter name="systemPort" value="8201"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel" />-->
+<!--</classes>-->
+<!--</test>-->
+<!--<test name="A201">-->
+<!--<parameter name="platform" value="Android 9"/>-->
+<!--<parameter name="udid" value="R58M35NT0WY"/>-->
+<!--<parameter name="systemPort" value="8202"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--</classes>-->
+<!--</test>-->
+<!--<test name="A20">-->
+<!--<parameter name="platform" value="Android 9"/>-->
+<!--<parameter name="udid" value="R58M361KS2P"/>-->
+<!--<parameter name="systemPort" value="8203"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--</classes>-->
+<!--</test>-->
+<!--<test name="HUAWEI nova 2 lite">-->
+<!--<parameter name="platform" value="Android 8.0.0"/>-->
+<!--<parameter name="udid" value="RBDBB18906501214"/>-->
+<!--<parameter name="systemPort" value="8204"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--</classes>-->
+<!--</test>-->
+
+<!--<test name="OPPO A57">-->
+<!--<parameter name="platform" value="Android 6.0.1"/>-->
+<!--<parameter name="udid" value="4699532"/>-->
+<!--<parameter name="systemPort" value="8205"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--</classes>-->
+<!--</test>-->
+<!--<test name="Redmi 6pro">-->
+<!--<parameter name="platform" value="Android 9"/>-->
+<!--<parameter name="udid" value="73a512510405"/>-->
+<!--<parameter name="systemPort" value="8206"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--</classes>-->
+<!--</test>-->
+<!--<test name="Mi5x">-->
+<!--<parameter name="platform" value="Android 8.1.0"/>-->
+<!--<parameter name="udid" value="00076ab20104"/>-->
+<!--<parameter name="systemPort" value="8207"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--</classes>-->
+<!--</test>-->
+<!--<test name="Y9">-->
+<!--<parameter name="platform" value="Android 8.0.0"/>-->
+<!--<parameter name="udid" value="HXT7N18717002024"/>-->
+<!--<parameter name="systemPort" value="8208"/>-->
+<!--<classes>-->
+<!--    <class name="Order_complete.Getride_order_complete_parallel"></class>-->
+<!--</classes>-->
+<!--</test>-->

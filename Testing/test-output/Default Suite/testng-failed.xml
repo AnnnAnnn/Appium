@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="" value=""/>
+  <test thread-count="5" name="Testing(failed)">
+    <classes>
+      <class name="Login.GetOTP_Samsung">
+        <methods>
+          <include name="Test"/>
+          <include name="SetupAppium"/>
+        </methods>
+      </class> <!-- Login.GetOTP_Samsung -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

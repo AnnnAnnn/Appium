@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="" value=""/>
+  <test thread-count="2" parallel="classes" name="HUAWEI Y9 2018(failed)">
+    <parameter name="platformVersion_" value="8.0.0"/>
+    <parameter name="URL_" value="172.0.0.1:4727/wd/hub"/>
+    <parameter name="udid_" value="HXT7N18717002024"/>
+    <parameter name="deviceName_" value="HUAWEI Y9 2018"/>
+    <classes>
+      <class name="Parallel_Testing">
+        <methods>
+          <include name="Test"/>
+          <include name="SetupAppium"/>
+        </methods>
+      </class> <!-- Parallel_Testing -->
+    </classes>
+  </test> <!-- HUAWEI Y9 2018(failed) -->
+  <test thread-count="2" parallel="classes" name="HUAWEI nova 2 lite)(failed)">
+    <parameter name="platformVersion_" value="8.0.0"/>
+    <parameter name="URL_" value="127.0.0.1:4737"/>
+    <parameter name="udid_" value="RBDBB18906501214"/>
+    <parameter name="deviceName_" value="HUAWEI nova 2 lite"/>
+    <classes>
+      <class name="Parallel_Testing">
+        <methods>
+          <include name="Test"/>
+          <include name="SetupAppium"/>
+        </methods>
+      </class> <!-- Parallel_Testing -->
+    </classes>
+  </test> <!-- HUAWEI nova 2 lite)(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
